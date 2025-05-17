@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\tp7-prueba\\seleccionarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\seleccionarsucursales.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\tp7-prueba\\listadosucursalesseleccionados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\listadosucursalesseleccionados.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|c:\\users\\usuario\\desktop\\tp7-prueba\\tp7-prueba\\seleccionarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\seleccionarsucursales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|c:\\users\\usuario\\desktop\\tp7-prueba\\tp7-prueba\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\tp7-prueba\\listadosucursalesseleccionados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\listadosucursalesseleccionados.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\tp7-prueba\\sucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\sucursales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\tp7-prueba\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{251D0195-45B6-4F16-8700-5DBF6E14F8B7}|TP7-Prueba\\TP7-Prueba.csproj|solutionrelative:tp7-prueba\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\Conexion.cs",
+              "RelativeDocumentMoniker": "TP7-Prueba\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\Conexion.cs",
+              "RelativeToolTip": "TP7-Prueba\\Conexion.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswBEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T15:57:11.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sucursales.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\Sucursales.cs",
+              "RelativeDocumentMoniker": "TP7-Prueba\\Sucursales.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\Sucursales.cs",
+              "RelativeToolTip": "TP7-Prueba\\Sucursales.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T00:49:15.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeleccionarSucursales.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\SeleccionarSucursales.aspx.cs",
+              "RelativeDocumentMoniker": "TP7-Prueba\\SeleccionarSucursales.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\SeleccionarSucursales.aspx.cs",
+              "RelativeToolTip": "TP7-Prueba\\SeleccionarSucursales.aspx.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAYwEMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T00:41:38.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\packages.config",
+              "RelativeDocumentMoniker": "TP7-Prueba\\packages.config",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\packages.config",
+              "RelativeToolTip": "TP7-Prueba\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-17T00:41:36.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListadoSucursalesSeleccionados.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\ListadoSucursalesSeleccionados.aspx.cs",
+              "RelativeDocumentMoniker": "TP7-Prueba\\ListadoSucursalesSeleccionados.aspx.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\ListadoSucursalesSeleccionados.aspx.cs",
+              "RelativeToolTip": "TP7-Prueba\\ListadoSucursalesSeleccionados.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T00:41:05.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListadoSucursalesSeleccionados.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\ListadoSucursalesSeleccionados.aspx",
+              "RelativeDocumentMoniker": "TP7-Prueba\\ListadoSucursalesSeleccionados.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\ListadoSucursalesSeleccionados.aspx",
+              "RelativeToolTip": "TP7-Prueba\\ListadoSucursalesSeleccionados.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-15T04:01:25.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SeleccionarSucursales.aspx",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\SeleccionarSucursales.aspx",
+              "RelativeDocumentMoniker": "TP7-Prueba\\SeleccionarSucursales.aspx",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\TP7-Prueba\\TP7-Prueba\\SeleccionarSucursales.aspx",
+              "RelativeToolTip": "TP7-Prueba\\SeleccionarSucursales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-05-15T04:00:35.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
