@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Timers;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -18,18 +19,30 @@ namespace TP7_Prueba
             if (!IsPostBack)
             {
                 CargarListView();
+                CargarDataList();
             }
         }
 
         public void CargarListView()
         {
-            string consultaSucursales = "SELECT [NombreSucursal], [URL_Imagen_Sucursal], [DescripcionSucursal], [Id_Sucursal] FROM [Sucursal]";
+            string consultaSucursales = "SELECT NombreSucursal, URL_Imagen_Sucursal, DescripcionSucursal, Id_Sucursal FROM Sucursal";
             SqlDataAdapter adapter = conexion.ObtenerAdaptador(consultaSucursales);
             DataTable tabla = new DataTable();
             adapter.Fill(tabla);
 
             lvSucursales.DataSource = tabla;
             lvSucursales.DataBind();
+        }
+
+        public void CargarDataList()
+        {
+            string consultaProvincias = "SELECT Id_Provincia, DescripcionProvincia FROM Provincia";
+            SqlDataAdapter adapter = conexion.ObtenerAdaptador(consultaProvincias);
+            DataTable tabla = new DataTable();
+            adapter.Fill(tabla);
+
+            dlProvincias.DataSource = tabla;
+            dlProvincias.DataBind();
         }
 
         protected void btnSeleccionar_Command(object sender, CommandEventArgs e)
@@ -102,8 +115,8 @@ namespace TP7_Prueba
             if (!string.IsNullOrWhiteSpace(txtBuscar.Text))
             {
                 string sucursal = txtBuscar.Text;
-                string consultaSucursalBuscada = "SELECT [NombreSucursal], [URL_Imagen_Sucursal], [DescripcionSucursal], [Id_Sucursal] " +
-                "FROM [Sucursal] WHERE [NombreSucursal] LIKE '%" + sucursal + "%'";
+                string consultaSucursalBuscada = "SELECT NombreSucursal, URL_Imagen_Sucursal, DescripcionSucursal, Id_Sucursal " +
+                "FROM Sucursal WHERE NombreSucursal LIKE '%" + sucursal + "%'";
                 SqlDataAdapter adapter = conexion.ObtenerAdaptador(consultaSucursalBuscada);
                 DataTable tabla = new DataTable();
                 adapter.Fill(tabla);
@@ -113,6 +126,35 @@ namespace TP7_Prueba
             }
             else
                 CargarListView();        
+        }
+
+        protected void btnProvincias_Command(object sender, CommandEventArgs e)
+        {
+            if(e.CommandName == "eventoBtnProvincias")
+            {
+                // Guardar ID de provincia seleccionada
+                string idProvincia = e.CommandArgument.ToString();
+
+                string consultaSucursales = "SELECT S.NombreSucursal, S.URL_Imagen_Sucursal, S.DescripcionSucursal, S.Id_Sucursal " +
+                "FROM Sucursal S INNER JOIN Provincia P ON S.Id_ProvinciaSucursal = P.Id_Provincia WHERE S.Id_ProvinciaSucursal = " + idProvincia;
+                SqlDataAdapter adapter = conexion.ObtenerAdaptador(consultaSucursales);
+                DataTable tabla = new DataTable();
+                adapter.Fill(tabla);
+
+                lvSucursales.DataSource = tabla;
+                lvSucursales.DataBind();
+
+            }
+        }
+
+        // Manejar la paginacion de forma manual
+        protected void lvSucursales_PagePropertiesChanging(object sender, PagePropertiesChangingEventArgs e)
+        {
+            DataPager pager = (DataPager)lvSucursales.FindControl("DataPager1");
+            pager.SetPageProperties(e.StartRowIndex, e.MaximumRows, false);
+
+            CargarListView();
+
         }
     }
 }

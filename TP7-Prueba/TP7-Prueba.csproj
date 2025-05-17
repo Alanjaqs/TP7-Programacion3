@@ -88,7 +88,6 @@
     <Compile Include="SeleccionarSucursales.aspx.designer.cs">
       <DependentUpon>SeleccionarSucursales.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Sucursales.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

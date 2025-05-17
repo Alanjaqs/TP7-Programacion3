@@ -69,6 +69,15 @@ namespace TP7_Prueba
         protected global::System.Web.UI.WebControls.Button btnBuscar;
 
         /// <summary>
+        /// Control dlProvincias.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DataList dlProvincias;
+
+        /// <summary>
         /// Control lvSucursales.
         /// </summary>
         /// <remarks>
